@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./file.js" defer></script>
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+
+
+
+<div class="cart_toogle toggle">
+  <h3 class="cart">cart</h3>
+  <h3 class="text">your cart is empty</h3>
+</div>
+
+
+
+<div class="navbar">
+  <div class="container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Sneakers">
+    </div>
+
+    <ul class="nav_links">
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="right_side">
+      <img src="./images/icon-cart.svg" class="cart" alt="cart" id="cart">
+      <img src="./images/image-avatar.png" class="avatar" alt="avatar">
+    </div>
+  </div>
+</div>
+
+
+
+<section class="main_section">
+  <div class="container">
+
+    <div class="left_images">
+      <div class="main_image">
+        <img src="./images/image-product-1.jpg" alt="img1" id="img1">
+      </div>
+      <div class="other_images">
+        <img src="./images/image-product-1.jpg" alt="img1">
+        <img src="./images/image-product-2.jpg" alt="img2">
+        <img src="./images/image-product-3.jpg" alt="img3">
+        <img src="./images/image-product-4.jpg" alt="img4">
+      </div>
+    </div>
+
+    <div class="right_content">
+      <h4>Sneaker Company</h4>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price">
+        <div class="price_discount">
+          <h3 class="actual_price">$125.00</h3>
+          <h5 class="discount">50%</h5>
+        </div>
+        <h5 class="pre_price"><s>$250.00</s></h5>
+      </div>
+      <div class="buttom_sec">
+        <div class="counter">
+        <img src="./images/icon-minus.svg" alt="mins" id="mins">
+        <h3 class="number" id="number">0</h3>
+        <img src="./images/icon-plus.svg" alt="plus" id="plus">
+        </div>
+        <button id="add_to_cart"><img src="./images/icon-cart.svg" alt="cart"><h3>Add to cart</h3></button>
+      </div>
+    </div>
+   
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+   -->
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
